@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Report Type"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMonthlyReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monthly Report"
+        android:layout_marginBottom="8dp"
+        style="@style/Widget.Material3.Button.TextButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCategoryReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category-wise Report"
+        android:layout_marginBottom="8dp"
+        style="@style/Widget.Material3.Button.TextButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnIncomeVsExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Income vs Expense"
+        android:layout_marginBottom="8dp"
+        style="@style/Widget.Material3.Button.TextButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTrendAnalysis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trend Analysis"
+        android:layout_marginBottom="8dp"
+        style="@style/Widget.Material3.Button.TextButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPieChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expense Distribution Chart"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.Material3.Button.TextButton"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCancelReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        style="@style/Widget.Material3.Button.TextButton"/>
+
+</LinearLayout> 
